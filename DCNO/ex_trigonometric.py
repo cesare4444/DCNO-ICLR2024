@@ -137,7 +137,7 @@ if __name__ == "__main__":
     #     del R_dic['model_name']
     # R_dic['subsample_stride'] = 2
     # train_2D_model(R_dic)
-    # =============================================Table2 Inverse problem===============================================
+    # =============================================Table3 Inverse problem===============================================
     # mode_record= [0, 0.01, 0.1]
     # result_record = []
     # R_dic['inv_problem'] = True
