@@ -141,7 +141,6 @@ if __name__ == "__main__":
     # mode_record= [0, 0.01, 0.1]
     # result_record = []
     # R_dic['inv_problem'] = True
-    # R_dic['boundary_condition'] = None
     # R_dic['losstype'] = 'L2'
     # for i in mode_record:
     #     if 'model_name' in R_dic:
