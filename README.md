@@ -52,10 +52,14 @@ details can be seen on the comment of [eval.py](https://github.com/cesare4444/DC
 The result(.mat) file will be generated under the ./results folder. 
 
 ##  Pre-trained models
-You can download pretrained models [here](https://drive.google.com/drive/folders/1Tnjh7Vnr_lmdYpePl60ZHuYTzfcz_8Zl?usp=share_link):
-- [darcyrough_res256.pt](https://drive.google.com/file/d/14GQMdM573oCNIJNWO_pcvUpTim7vmw0O/view?usp=share_link) trained on darcy rough in section 4.2 with resolution=256.
-- [multiscale_res256.pt](https://drive.google.com/file/d/1uPX38qqEastYhp7_iH3MbHB0PSXP6lDc/view?usp=share_link) trained on multiscale trigonometric coefficient in section 4.2 with resolution=256.
-- [FNO_multiscale_res256.pt](https://drive.google.com/file/d/1MZAIQhBjVh0-ja-Q6vi17kxYl9X5pKTw/view?usp=share_link) trained on multiscale trigonometric coefficient by FNO with resolution=256.
+You can download pretrained models [here](https://drive.google.com/drive/folders/1R25krLJahly9RZJYIEpEqkpWy4DOBTwx?usp=sharing):
+- [darcy_res256_forward.pt](https://drive.google.com/file/d/1vXIBtRGnVcIDKkeDSXVWPsI6ARtrMk1W/view?usp=drive_link) trained on darcy flow in section 4.1 with resolution=256.
+- [gamblet_res256_forward.pt](https://drive.google.com/file/d/1DUEP9CHxyNh9BrGKPVLbBCXIWT5gcC6e/view?usp=drive_link) trained on multiscale trigonometric coefficients in section 4.1 with resolution=256.
+- [darcy_res256_inverse_noise0.0.pt](https://drive.google.com/file/d/1F6pv8LSDZ9yXyOfp9DccWqVN-2pP6w0U/view?usp=drive_link) trained on darcy flow inverse problem with noise=0.0 in section 4.3 with resolution=256.
+- [darcy_res256_inverse_noise0.1.pt](https://drive.google.com/file/d/1YKaAoeVWc7u2G17wbzFrpYO8bzuJnRUW/view?usp=drive_link) trained on darcy flow inverse problem with noise=0.1 in section 4.3 with resolution=256.
+- [gamblet_res256_inverse_noise0.0.pt](https://drive.google.com/file/d/1LdhNOZkEYSpwsSOSOm633yX7ss25XzU-/view?usp=drive_link) trained on multiscale trigonometric coefficients inverse problem with noise=0.0 in section 4.3 with resolution=256.
+- [gamblet_res256_inverse_noise0.1.pt](https://drive.google.com/file/d/1HAxAwQXdQyUysuEKaiWZEaeOLtBPIm1-/view?usp=drive_link) trained on multiscale trigonometric coefficients inverse problem with noise=0.1 in section 4.3 with resolution=256.
+- [NS64_1e-6_T15.pt](https://drive.google.com/file/d/1b4cMxns8l_Ck3wYLyKXigOJ66Q4mSD9n/view?usp=drive_link) trained on Navier-Stokes equation with v=1e-6, T_in=10, T=15 in section 4.2.
 
 
 Put them in the ./models folder.
