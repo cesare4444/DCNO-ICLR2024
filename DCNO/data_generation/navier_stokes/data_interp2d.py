@@ -17,8 +17,8 @@ import hdf5storage as hdf5
 # x_c, y_c = np.linspace(0, 1, n_c), np.linspace(0, 1, n_c)
 # x_interp = []
 #
-# a = hdf5.loadmat('E:/SJTU/torch_project/MC/data/ns_1e-6_T15_val.mat')['a']
-# x = hdf5.loadmat('E:/SJTU/torch_project/MC/data/ns_1e-6_T15_val.mat')['u']
+# a = hdf5.loadmat('/data/ns_1e-6_T15_val.mat')['a']
+# x = hdf5.loadmat('/data/ns_1e-6_T15_val.mat')['u']
 #
 # for i in range(N):
 #     x_interp_T = []
@@ -28,7 +28,7 @@ import hdf5storage as hdf5
 #     x_interp.append(np.stack(x_interp_T, axis=-1))
 # u = np.stack(x_interp, axis=0)
 
-# hdf5.savemat('E:/SJTU/torch_project/MC/data/NS64_1e-6_T15_val.mat', mdict={'a': a, 'u': u}, format='7.3', matlab_compatible = True)
+# hdf5.savemat('/NS64_1e-6_T15_val.mat', mdict={'a': a, 'u': u}, format='7.3', matlab_compatible = True)
 
 
 device = torch.device('cuda')

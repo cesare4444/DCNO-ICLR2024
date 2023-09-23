@@ -213,10 +213,7 @@ for j in range(N//bsize):
     t1 = default_timer()
     print(j, c, t1-t0)
 
-# hdf5storage.savemat('/dssg/home/acct-nislz/nislz/xubo/swinfno/data/ns_1e-3_T50_train.mat', mdict={'a': a.cpu().numpy(), 'u': u, 't': sol_t.cpu().numpy()}, format='7.3', matlab_compatible = True)
-# hdf5storage.savemat('/dssg/home/acct-nislz/nislz/xubo/swinfno/data/ns_1e-4_T30_train.mat', mdict={'a': a.cpu().numpy(), 'u': u.cpu().numpy(), 't': sol_t.cpu().numpy()}, format='7.3', matlab_compatible = True)
-# hdf5storage.savemat('/dssg/home/acct-nislz/nislz/xubo/swinfno/data/ns_1e-5_T20_train.mat', mdict={'a': a.cpu().numpy(), 'u': u.cpu().numpy(), 't': sol_t.cpu().numpy()}, format='7.3', matlab_compatible = True)
-hdf5storage.savemat('E:/SJTU/torch_project/HT-net/data/ns_1e-6_T15_train.mat', mdict={'a': a.cpu().numpy(), 'u': u, 't': sol_t.cpu().numpy()}, format='7.3', matlab_compatible = True)
-print('我永远喜欢圣人惠')
+hdf5storage.savemat('/data/ns_1e-6_T15_train.mat', mdict={'a': a.cpu().numpy(), 'u': u, 't': sol_t.cpu().numpy()}, format='7.3', matlab_compatible = True)
+
 
 
