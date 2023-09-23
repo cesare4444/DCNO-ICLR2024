@@ -48,7 +48,7 @@ To evaluate DCNO model, run:
 ```eval
 python eval.py 
 ```
-details can be seen on the comment of [eval.py](https://github.com/cesare4444/DCNO-ICLR2024/blob/main/DCNO/ex_darcy.py)  and [ex_trigonometric.py](https://github.com/cesare4444/DCNO-ICLR2024/blob/main/DCNO/eval.py)
+details can be seen on the comment of [eval.py](https://github.com/cesare4444/DCNO-ICLR2024/blob/main/DCNO/eval.py)
 The result(.mat) file will be generated under the ./results folder. 
 
 ##  Pre-trained models
