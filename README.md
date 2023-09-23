@@ -26,12 +26,12 @@ conda env create -f environment.yaml
 ##  Training
 Please put all the datasets into the ./data folder.
 
-Run the 'ex_darcy.py' to reproduce the  darcy flow experiment with resolution = 256 by
+Run the 'ex_darcy.py' to reproduce the  darcy flow forward experiment by
 ```train
 python ex_darcy.py  
 ```
   
-Run the 'ex_trigonometric.py' to reproduce the multiscale trigonometric coefficients experiment with resolution = 256 by
+Run the 'ex_trigonometric.py' to reproduce the multiscale trigonometric coefficients forward experiment by
 ```train
 python ex_trigonometric.py 
 ```
@@ -40,7 +40,7 @@ Run the 'ex_NS.py' to reproduce the Navier-Stokes experiment by
 ```train
 python ex_NS.py 
 ```
-
+To reproduce the inverse problem experiments, see the comment of [ex_darcy.py](https://github.com/cesare4444/DCNO-ICLR2024/blob/main/DCNO/ex_darcy.py)  and [ex_trigonometric.py](https://github.com/cesare4444/DCNO-ICLR2024/blob/main/DCNO/ex_trigonometric.py)
 
 ## Evaluation
 To evaluate my model on darcy rough, run:
