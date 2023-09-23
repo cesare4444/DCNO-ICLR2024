@@ -109,13 +109,13 @@ if __name__ == "__main__":
 
     # Each part corresponds to a column in Table 2. When running the program, only keep the corresponding part and comment out the others.
     # ============================================v=1e-3, T_in=10, T=50=================================================
-    R_dic['train_path'] = 'NS64_1e-3_T50_train.mat'
-    R_dic['val_path'] = 'NS64_1e-3_T50_val.mat'
-    R_dic['test_path'] = 'NS64_1e-3_T50_test.mat'
-    R_dic['T_in'] = 10
-    R_dic['T'] = 40
-    train_NS_model(R_dic)
-    print('END')
+    # R_dic['train_path'] = 'NS64_1e-3_T50_train.mat'
+    # R_dic['val_path'] = 'NS64_1e-3_T50_val.mat'
+    # R_dic['test_path'] = 'NS64_1e-3_T50_test.mat'
+    # R_dic['T_in'] = 10
+    # R_dic['T'] = 40
+    # train_NS_model(R_dic)
+    # print('END')
     # ============================================v=1e-4, T_in=10, T=25=================================================
     # R_dic['train_path'] = 'NS64_1e-4_T30_train.mat'
     # R_dic['val_path'] = 'NS64_1e-4_T30_val.mat'
@@ -133,12 +133,12 @@ if __name__ == "__main__":
     # train_NS_model(R_dic)
     # print('END')
     # ============================================v=1e-6, T_in=10, T=15=================================================
-    # R_dic['train_path'] = 'NS64_1e-6_T15_train.mat'
-    # R_dic['val_path'] = 'NS64_1e-6_T15_val.mat'
-    # R_dic['test_path'] = 'NS64_1e-6_T15_test.mat'
-    # R_dic['T_in'] = 6
-    # R_dic['T'] = 9
-    # train_NS_model(R_dic)
-    # print('END')
+    R_dic['train_path'] = 'NS64_1e-6_T15_train.mat'
+    R_dic['val_path'] = 'NS64_1e-6_T15_val.mat'
+    R_dic['test_path'] = 'NS64_1e-6_T15_test.mat'
+    R_dic['T_in'] = 6
+    R_dic['T'] = 9
+    train_NS_model(R_dic)
+    print('END')
     # ==================================================================================================================
 
