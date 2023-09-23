@@ -495,7 +495,7 @@ def train_NS_model(R_dic):
             if val_l2_full < best_val_metric:
                 best_val_epoch = epoch
                 best_val_metric = val_l2_full
-                test_by_val = val_l2_full
+                test_by_val = test_l2_full
                 stop_counter = 0
 
                 torch.save(model, os.path.join(R_dic['model_save_path'], R_dic['model_name']))
