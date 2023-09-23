@@ -12,7 +12,6 @@ import scipy.io as scio
 import matplotlib.pyplot as plt
 from timeit import default_timer
 from torchinfo import summary
-from Adam import Adam
 
 def train_data(model, train_loader, loss_func, optimizer, lr_scheduler, train_len, losstype, device):
     model.train()
